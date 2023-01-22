@@ -1,6 +1,6 @@
 <?php
 
-namespace AlAminFirdows\LaravelEditorJs;
+namespace Lostlink\LaravelEditorJs;
 
 use EditorJS\EditorJS;
 use EditorJS\EditorJSException;

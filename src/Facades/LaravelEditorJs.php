@@ -1,6 +1,6 @@
 <?php
 
-namespace AlAminFirdows\LaravelEditorJs\Facades;
+namespace Lostlink\LaravelEditorJs\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

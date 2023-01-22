@@ -2,10 +2,10 @@
 
 # Laravel-Editor.js
 
-A simple editor.js html parser for Laravel
+A simple editor.js html parser for Laravel with Tailwind styling
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/alaminfirdows/laravel-editorjs.svg?style=for-the-badge)](https://packagist.org/packages/alaminfirdows/laravel-editorjs)
-[![Total Downloads](https://img.shields.io/packagist/dt/alaminfirdows/laravel-editorjs.svg?style=for-the-badge)](https://packagist.org/packages/alaminfirdows/laravel-editorjs)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lostlink/laravel-editorjs.svg?style=for-the-badge)](https://packagist.org/packages/lostlink/laravel-editorjs)
+[![Total Downloads](https://img.shields.io/packagist/dt/lostlink/laravel-editorjs.svg?style=for-the-badge)](https://packagist.org/packages/lostlink/laravel-editorjs)
 
 ---
 
@@ -14,7 +14,7 @@ A simple editor.js html parser for Laravel
 You can install the package via composer:
 
 ```bash
-composer require alaminfirdows/laravel-editorjs
+composer require lostlink/laravel-editorjs
 ```
 
 You can publish the config file with:
@@ -46,7 +46,7 @@ Defining An Accessor
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use AlAminFirdows\LaravelEditorJs\Facades\LaravelEditorJs;
+use Lostlink\LaravelEditorJs\Facades\LaravelEditorJs;
 
 class Post extends Model
 {
@@ -67,6 +67,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 -   [Al-Amin Firdows](https://github.com/alaminfirdows)
+-   [Nuno Souto](https://github.com/nsouto)
 -   [All Contributors](../../contributors)
 
 ## License
