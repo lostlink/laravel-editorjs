@@ -1,6 +1,5 @@
 @php
-$level = $data['level'] ?? 1;
-$tag = "h{$level}";
+$tag = "h" . $data['level'] ?? 1;
 @endphp
 
 <{{ $tag }}>{{ $data['text'] ?? '' }}</{{ $tag }}>
