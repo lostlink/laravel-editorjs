@@ -9,12 +9,6 @@ use Illuminate\Support\Facades\View;
 
 class LaravelEditorJs
 {
-    /**
-     * Render blocks
-     *
-     * @param string $data
-     * @return string
-     */
     public function render(string $data): string
     {
         try {
@@ -25,6 +19,7 @@ class LaravelEditorJs
             $renderedBlocks = [];
 
             foreach ($editor->getBlocks() as $block) {
+
 
                 $viewName = "laravel_editorjs::blocks." . Str::snake($block['type'], '-');
 

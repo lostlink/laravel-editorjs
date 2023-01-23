@@ -129,6 +129,12 @@ return [
                     'allowedTags' => '*',
                 ],
             ],
+            'blade' => [
+                'html' => [
+                    'type' => 'string',
+                    'allowedTags' => '*',
+                ],
+            ],
         ],
     ],
 ];

@@ -6,11 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class LaravelEditorJsServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
     public function register()
     {
         $this->mergeConfigFrom(__DIR__ . '/../config/laravel_editorjs.php', 'laravel_editorjs');
@@ -20,11 +15,6 @@ class LaravelEditorJsServiceProvider extends ServiceProvider
         });
     }
 
-    /**
-     * Bootstrap any package services.
-     *
-     * @return void
-     */
     public function boot()
     {
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel_editorjs');
